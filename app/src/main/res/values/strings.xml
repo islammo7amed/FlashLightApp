@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FlashLight App</string>
+
+    <string name="main_text_view_flashlight">Flashlight</string>
+    <string name="main_button_flash_on">On</string>
+    <string name="main_button_flash_off">Off</string>
+    <string name="main_dialog_title">Error</string>
+    <string name="main_dialog_message">Sorry your device not supported Camera flash</string>
+    <string name="main_dialog_positive_button">Ok</string>
+</resources>

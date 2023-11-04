@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_115sdp"
+        android:text="@string/main_text_view_flashlight"
+        android:textSize="@dimen/_36ssp"
+        android:textColor="@color/green_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="@dimen/_192sdp"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_169sdp"
+        android:background="@drawable/main_line_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/main_btn_flash"
+        android:layout_width="@dimen/_115sdp"
+        android:layout_height="@dimen/_54sdp"
+        android:text="@string/main_button_flash_on"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/green_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="@dimen/_94sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/main_bottom_line_shape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/main_iv_bulb"
+        android:layout_width="@dimen/_92sdp"
+        android:layout_height="@dimen/_92sdp"
+        app:srcCompat="@drawable/ic_light_bulb"
+        android:layout_marginBottom="@dimen/_92sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

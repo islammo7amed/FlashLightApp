@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق الفلاش</string>
+
+    <string name="main_text_view_flashlight">ضوء الفلاش</string>
+    <string name="main_button_flash_on">تشغيل</string>
+    <string name="main_button_flash_off">إطفاء</string>
+    <string name="main_dialog_title">خطأ</string>
+    <string name="main_dialog_message">للاسف لا يدعم جهازك ضوء الفلاش</string>
+    <string name="main_dialog_positive_button">حسناً</string>
+</resources>
